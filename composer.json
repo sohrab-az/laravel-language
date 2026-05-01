@@ -1,0 +1,25 @@
+{
+  "name": "sohrab-az/laravel-language",
+  "description": "A flexible language package for Laravel",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SohrabAzinfar\\Language\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SohrabAzinfar\\Language\\Tests\\": "tests/",
+      "SohrabAzinfar\\Language\\Database\\Factories\\": "database/factories/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SohrabAzinfar\\Language\\LanguageServiceProvider"
+      ]
+    }
+  }
+}
