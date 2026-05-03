@@ -22,7 +22,7 @@ This package provides a database-driven approach to manage languages, including 
 You can install the package via composer:
 
 ```bash
-composer require sohrab-az/language
+composer require sohrab-az/laravel-language
 ```
 
 ## Configuration
